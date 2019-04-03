@@ -1,4 +1,55 @@
 body {
     background: rgb(228,225,225);
-background: linear-gradient(150deg, rgba(228,225,225,1) 0%, rgba(184,182,182,1) 100%);
+    background: linear-gradient(150deg, rgba(228,225,225,1) 0%, rgba(184,182,182,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-bar {
+    background: #090909;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+}
+
+.link-square {
+    text-transform: capitalize;
+    flex-grow: 1
+}
+
+.link-square .link-content {
+    display: flex;
+    list-style-type: none;
+}
+
+.link-square .link-content .link {
+    margin-left: 10px;
+    color: #dcd2d2;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    padding: 10px
+}
+
+.link-square .link-content .link:hover {
+    background: #dcd2d2;
+    color: #090909;
+}
+
+.search-square {
+    background: white;
+    flex-basis: 203px;
+    margin-right: 100px;
+    padding: 5px 0px
+}
+
+.search-square .input {
+    border: none;
+    color: white;
+}
+
+.search-square .button {
+    background: white;
+    border: none;
+}
+
