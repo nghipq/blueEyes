@@ -10,6 +10,7 @@ body {
     flex-direction: row;
     align-items: center;
     height: 40px;
+    margin-bottom: 50px;
 }
 
 .link-square {
@@ -53,3 +54,54 @@ body {
     border: none;
 }
 
+.left {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.left .poster {
+    width: 400px;
+    height: 600px;
+    background: url('./image/poster.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.left .info {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+
+.left .info .name {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+
+.left .info .item {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 400px;
+    margin-left: 10px;
+    border: 1px solid #BEBCBC;
+    margin-bottom: 10px;
+}
+
+.left .info .item .item-1 {
+    flex-basis: 100px
+}
+
+.left .info .item .item-2 {
+    flex-grow: 1
+}
+
+.story {
+    width: 800px;
+    margin-left: 50px
+}
